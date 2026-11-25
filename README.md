@@ -24,17 +24,6 @@ Client code stays private. The repositories below are my own.
 - [Deadlocks in Dense Lifelong MAPF, A Journey from Why to Adaptive Density Control](https://ieeexplore.ieee.org/document/11708305), IEEE ICSCSA 2026, co-author. A closed-loop controller that tunes the number of active agents from the deadlock signal alone. Code: [tay805/mapf-deadlock](https://github.com/tay805/mapf-deadlock)
 - PRISMA review of energy efficiency in IoT and wireless sensor networks, co-author (manuscript). A two-axis taxonomy of 136 studies.
 
-#### Stack
-
-Python, SQL, Bash, C, C++, Java, JavaScript, TypeScript, Go, Rust<br>
-PyTorch, TensorFlow, scikit-learn, RL (PPO, MARL), GNNs, LSTM<br>
-LLM APIs and tool calling, Terminal-Bench, Harbor, SWE-bench, RLHF, rubric design<br>
-Pandas, NumPy, dbt, Kafka, Postgres, Docker, AWS, Linux, CI/CD
-
-#### Education
-
-BSc (Honours cum Research) in Computer Applications, University of Kashmir, 2022 to 2026. CGPA 8.47/10.
-
 #### Contact
 
 [ubaidmushtaq0786@gmail.com](mailto:ubaidmushtaq0786@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ubaid-mushtaq-38774a2a5/)
