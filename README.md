@@ -15,13 +15,13 @@ ML, AI and quantitative engineer from Kashmir, India. I work across data science
 | --- | --- | --- |
 | [futureleak](https://github.com/Ubaid0786/futureleak) | Black-box test for look-ahead leakage in time-series features, using truncation and perturbation | 684 indicators audited across six TA libraries. All 10 flags traced to source lines, one [reported upstream](https://github.com/bukosabino/ta/issues/374) |
 | [itemaudit](https://github.com/Ubaid0786/itemaudit) | Paired significance tests and 2PL item response theory on benchmark results tables | Across 173 SWE-bench Verified submissions, no top 20 pair is separable after Holm correction. Found [two inconsistent submissions](https://github.com/SWE-bench/experiments/issues/524) |
-| [recallcert](https://github.com/Ubaid0786/recallcert) | Statistical stopping rules with recall guarantees for ML-assisted document screening | A common heuristic missed 95% recall in 61.5% of 260 runs on 26 reviews |
+| [recallcert](https://github.com/Ubaid0786/recallcert) | Statistical stopping rules with recall guarantees for AI-assisted literature screening | A common heuristic missed 95% recall in 61.5% of 260 runs on 26 reviews |
 | [DRIMAPS](https://github.com/Ubaid0786/DRIMAPS) | Multi-agent path finding with wait-for-graph deadlock detection (Tarjan SCC) and a targeted escape step, plus a Gymnasium/PettingZoo simulator | Ongoing, benchmarked on MovingAI maps |
 | Algorithmic trading platform (private) | Market data ingestion, LSTM forecasting, RL position sizing and a backtesting engine with look-ahead leakage tests | Python, PyTorch, Docker, AWS |
 
 #### Research
 
-- [Deadlocks in Dense Lifelong MAPF, A Journey from Why to Adaptive Density Control](https://ieeexplore.ieee.org/document/11708305), IEEE ICSCSA 2026, co-author. A closed-loop controller that tunes the number of active agents from the deadlock signal alone. Code: [tay805/mapf-deadlock](https://github.com/tay805/mapf-deadlock)
+- [Deadlocks in Dense Lifelong MAPF: A Journey from Why to Adaptive Density Control](https://ieeexplore.ieee.org/document/11708305), IEEE ICSCSA 2026, co-author. A closed-loop controller that tunes the number of active agents from the deadlock signal alone. Code: [tay805/mapf-deadlock](https://github.com/tay805/mapf-deadlock)
 - PRISMA review of energy efficiency in IoT and wireless sensor networks, co-author (manuscript). A two-axis taxonomy of 136 studies.
 
 #### Stack
