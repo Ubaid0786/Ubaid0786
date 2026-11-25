@@ -1,16 +1,40 @@
-## Hi there 👋
+### Ubaid Mushtaq Mir
 
-<!--
-**Ubaid0786/Ubaid0786** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ML, AI and quantitative engineer from Kashmir, India. I build the benchmark tasks, environments and graders that AI labs use to train and test coding agents. I also build automated trading systems and data pipelines for international clients.
 
-Here are some ideas to get you started:
+#### Work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+As an AI evaluation engineer on agentic coding benchmarks, I have authored 500+ tasks across Terminal-Bench (Terminus), SWE-bench style and agent evaluation (Otter) projects for Snorkel AI and Deccan AI, with a 90% approval rate. I have also done evaluation, RLHF and code review work for Handshake AI, Scale AI, Toloka AI, Mercor and Alignerr. Each task ships with a reproducible Harbor environment, an expert reference solution and a pytest grader built to resist reward hacking, and is checked with oracle, cheating-agent and frontier-model runs.
+
+On the quant side I build portfolio management and trading systems, with walk-forward backtests that account for transaction costs, Sharpe ratio and drawdown.
+
+Client code stays private. The repositories below are my own.
+
+#### Open source
+
+| Project | What it does | Result |
+| --- | --- | --- |
+| [itemaudit](https://github.com/Ubaid0786/itemaudit) | Statistical audit of agent benchmarks using paired tests and IRT on the results table | Across 173 SWE-bench Verified submissions, no top 20 pair is distinguishable after Holm correction. Also [reported two submissions](https://github.com/SWE-bench/experiments/issues/524) whose per-task results disagree with their score |
+| [futureleak](https://github.com/Ubaid0786/futureleak) | Black-box look-ahead leakage auditor for time-series features | Audited 684 indicators in six TA libraries and traced all 10 flags to source lines, [reported upstream](https://github.com/bukosabino/ta/issues/374) |
+| [recallcert](https://github.com/Ubaid0786/recallcert) | Stopping rules with recall guarantees for AI-assisted literature screening | A common heuristic missed 95% recall in 61.5% of 260 runs on 26 reviews |
+| [DRIMAPS](https://github.com/Ubaid0786/DRIMAPS) | Detection-guided deadlock escape for reactive multi-agent path finding | Wait-for-graph detection with Tarjan-based cycle extraction that moves only agents in a confirmed wait cycle. Ongoing |
+
+#### Research
+
+- [Deadlocks in Dense Lifelong MAPF, A Journey from Why to Adaptive Density Control](https://ieeexplore.ieee.org/document/11708305), IEEE ICSCSA 2026, co-author. A closed-loop controller that tunes the number of active agents from the deadlock signal alone. Code: [tay805/mapf-deadlock](https://github.com/tay805/mapf-deadlock)
+- PRISMA review of energy efficiency in IoT and wireless sensor networks, co-author (manuscript). A two-axis taxonomy of 136 studies.
+
+#### Stack
+
+Python, SQL, Bash, C, C++, Java, JavaScript, TypeScript, Go, Rust<br>
+PyTorch, TensorFlow, scikit-learn, RL (PPO, MARL), GNNs, LSTM<br>
+LLM APIs and tool calling, Terminal-Bench, Harbor, SWE-bench, RLHF, rubric design<br>
+Pandas, NumPy, dbt, Kafka, Postgres, Docker, AWS, Linux, CI/CD
+
+#### Education
+
+BSc (Honours cum Research) in Computer Applications, University of Kashmir, 2022 to 2026. CGPA 8.47/10.
+
+#### Contact
+
+[ubaidmushtaq0786@gmail.com](mailto:ubaidmushtaq0786@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ubaid-mushtaq-38774a2a5/)
